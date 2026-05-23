@@ -267,7 +267,7 @@ const CatalogueContentInner = ({ subject }: { subject: string | null }) => {
   return (
     <div className="relative flex min-h-screen justify-center p-0 md:justify-normal">
       {papers.length > 0 && (
-        <div className="hidden !w-[22%] min-w-[22%] max-w-[22%] flex-shrink-0 md:block">
+        <div className="hidden !w-[22%] min-w-[22%] max-w-[22%] flex-shrink-0 self-start md:block">
           <SideBar />
         </div>
       )}
