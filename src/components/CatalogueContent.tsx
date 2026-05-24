@@ -3,7 +3,7 @@
 import { useSearchParams } from "next/navigation";
 import { useEffect, useState } from "react";
 import axios, { type AxiosError } from "axios";
-import { Button } from "@/components/ui/button";
+import { Button } from "@/components/ui/button"; 
 import { type IPaper, type Filters, type StoredSubjects } from "@/interface";
 import Card from "./Card";
 import Loader from "./ui/loader";
